@@ -2,7 +2,8 @@
 
 > A fully automated end-to-end cryptocurrency analytics dashboard built using **Python, SQLite, Power BI, and GitHub Actions**.
 
-![Dashboard Banner](images/dashboard_banner.png)
+<img width="1357" height="747" alt="image" src="https://github.com/user-attachments/assets/1c95ddfa-ab80-4692-8349-c922a05cf244" />
+
 
 ---
 
@@ -59,39 +60,11 @@ The entire ETL pipeline is automated using **GitHub Actions**, ensuring that fre
 
 ---
 
-# 🏗 Project Architecture
-
-```
-             GitHub Actions
-                    │
-                    ▼
-        Daily Scheduled Workflow
-                    │
-                    ▼
-          Python ETL Pipeline
-          ├── Fetch Live Data
-          ├── Fetch Historical Data
-          ├── Update SQLite
-          ├── Create Views
-          └── Create Indexes
-                    │
-                    ▼
-          SQLite Database
-                    │
-                    ▼
-          Power BI Dashboard
-                    │
-                    ▼
-        Interactive Analytics
-```
-
----
-
 # 🛠 Tech Stack
 
 ## Programming
 
-- Python 3.11
+- Python 
 
 ## Database
 
@@ -105,6 +78,7 @@ The entire ETL pipeline is automated using **GitHub Actions**, ensuring that fre
 
 - yFinance
 - Requests API
+- Coin gecko
 
 ## Business Intelligence
 
@@ -118,41 +92,6 @@ The entire ETL pipeline is automated using **GitHub Actions**, ensuring that fre
 
 - Git
 - GitHub
-
----
-
-# 📂 Project Structure
-
-```
-Crypto_Analysis/
-
-│
-├── .github/
-│   └── workflows/
-│       └── daily_etl.yml
-│
-├── dashboard/
-│
-├── database/
-│   └── crypto_analytics.db
-│
-├── scripts/
-│   ├── config.py
-│   ├── fetch_live.py
-│   ├── fetch_historical.py
-│   ├── create_database.py
-│   ├── create_indexes.py
-│   ├── create_views.py
-│
-├── power_bi/
-│   └── crypto_analysis.pbix
-│
-├── etl_pipeline.py
-│
-├── requirements.txt
-│
-└── README.md
-```
 
 ---
 
@@ -257,19 +196,28 @@ Push to GitHub
 
 ## Main Dashboard
 
-![Dashboard](images/dashboard.png)
+<img width="1331" height="746" alt="image" src="https://github.com/user-attachments/assets/37a71cbd-2696-4af3-9fd7-1cb096051f17" />
+
 
 ---
 
-## Historical Trend
+<img width="1330" height="747" alt="image" src="https://github.com/user-attachments/assets/24fd49fa-65a5-4495-99f6-b336bbfaacc1" />
 
-![Trend](images/trend.png)
 
 ---
 
-## Coin Analysis
+<img width="1331" height="751" alt="image" src="https://github.com/user-attachments/assets/99ec1bbd-7919-436b-b418-5fa09d7f3067" />
 
-![Coin](images/coin.png)
+
+---
+
+<img width="1325" height="750" alt="image" src="https://github.com/user-attachments/assets/4d7a4493-964e-498a-84ae-0b87ffa6da94" />
+
+
+---
+
+<img width="1325" height="750" alt="image" src="https://github.com/user-attachments/assets/f571a89e-1dfc-4746-88ab-5b1f30b462da" />
+
 
 ---
 
@@ -341,7 +289,7 @@ This project demonstrates practical experience in
 - Version Control
 
 ---
-
+<!--
 # 🚀 Future Improvements
 
 - Live streaming data
@@ -354,7 +302,7 @@ This project demonstrates practical experience in
 - Alerts & notifications
 - Portfolio optimization
 - Mobile responsive dashboard
-
+-->
 ---
 
 # 👨‍💻 Author
@@ -372,5 +320,3 @@ GitHub: https://github.com/ViBH2204
 Portfolio: https://yourportfolio.com -->
 
 ---
-
-# ⭐ If you found this project useful, consider giving it a star!
