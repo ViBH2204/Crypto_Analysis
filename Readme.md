@@ -221,6 +221,21 @@ Push to GitHub
 
 ---
 
+## 📊 Data Snapshot
+
+> Market snapshot captured from the Power BI dashboard, comparing selected cryptocurrencies across price, market capitalization, dominance, trading volume, 24-hour performance, and distance from all-time highs.
+
+| Cryptocurrency | Price | Market Cap | Dominance | 24H Volume | 24H Change | ATH | ATH Distance |
+|:--------------|------:|-----------:|----------:|-----------:|-----------:|----:|--------------:|
+| 🟠 **Bitcoin** | $64.78K | $1T | 73.67% | $19bn | -0.10% | $126.20K | -48.67% |
+| 🔵 **Ethereum** | $1.91K | $231bn | 13.08% | $7bn | -0.10% | $4.95K | -61.39% |
+| 🟢 **Tether** | $1.00 | $183bn | 10.39% | $32bn | 0.00% | $1.11 | -9.64% |
+| 🟣 **Solana** | $73.60 | $43bn | 2.43% | $1bn | -0.40% | $294.33 | -74.99% |
+| 🔵 **Cardano** | $0.20 | $8bn | 0.43% | $782M | **+6.40%** | $3.10 | -93.49% |
+
+---
+
+
 # 📌 KPIs Included
 
 | KPI | Description |
